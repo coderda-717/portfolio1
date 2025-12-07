@@ -4,11 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    
-     "client": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts client",
-     "server": "nodemon server.js",
-     "dev": "concurrently \"npm run server\" \"npm run client\""
-   
+    "client": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts client",
+    "server": "nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
   "author": "",
